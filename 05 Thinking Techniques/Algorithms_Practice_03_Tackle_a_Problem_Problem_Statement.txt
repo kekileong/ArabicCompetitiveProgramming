@@ -1,3 +1,8 @@
+/*這是Cairo University的Eng Mostafa Saad所注的文章, 本人只翻譯成中文, 原注版權屬Eng Mostafa Saad所有。
+REFERENCE: https://github.com/kekileong/ArabicCompetitiveProgramming/tree/master/05%20Thinking%20Techniques
+
+*/
+
 /*
  *
  *
@@ -13,7 +18,7 @@
  * 																								*
  * In case of finding a mistake, kindly notify me at: mostafa.saad.fci@gmail.com				*
  * 																								*
- * Mostafa Saad Ibrahim � 2013																	*
+ * Mostafa Saad Ibrahim © 2013																	*
  * 																								*
  ************************************************************************************************
  *
@@ -21,6 +26,7 @@
  */
  
  --------------------------------------------------Tackling a problem -----------------------------------------------------------
+ --------------------------------------------------     应付難題       -----------------------------------------------------------
 
 Before tackling a problem you should be
 	Ready / Relax
@@ -28,14 +34,25 @@ Before tackling a problem you should be
 	Challenge Spirit
 	Don't rush / Don't panic
 	Check your watch - Monitor your progress
-	
+當你應付難題時, 你應該
 
+	做好準備/ 放鬆5
+	相像自己在比賽中, 要有活躍心態
+	要有挑战精神
+	不用急/慌
+	管理好時間
 We could think in Solving a problem as stages
 	1- Reading and correctly "understanding" problem statement
 	2- "Thinking" in a solution -> Verifying it
 	3- Coding
 	4- Debugging if necessary
 	5- Testing
+解題5步曲:
+1- 讀題, 要清楚明白題目
+2- "想出"題解 -> 證明它是可行的
+3- 下CODE
+4- 有需要時DEBUG
+5- 測試
 
 Hence your overall performance depends on performance in every stage.
 	The more better in one of stages, the better overall performance.
@@ -48,8 +65,11 @@ Hence your overall performance depends on performance in every stage.
 	
 	Another dimension for performance is your speed.
 	
---------------------------------------------------Reading problem statement -----------------------------------------------------------
 
+^^^^這段太廢不譯了:)
+
+--------------------------------------------------Reading problem statement -----------------------------------------------------------
+--------------------------------------------------讀題------------------------------------------------------------------
 Although we read it fast, it is one of popular reason for failure!
 	The best way to avoid that is to be organized - to have a DISIPLINE during reading: a systematic way of reading
 
@@ -58,10 +78,26 @@ Although we read it fast, it is one of popular reason for failure!
 1.2- Re-think in a statement, If it seems a tricky statement
 1.3- Number All important details
 
+請注意往往失敗是因為讀題太快了!
+所以要有组织的讀題:
+1-仔細地看閱和思考每個句子
+1.1- 檢查每個句子是否在整體上有冲突
+1.2- 當看到奇怪或看似狡滑的陳述時, 再想一想 (三思而後行)
+1.3 列明所有重點
+
 2- In some problems, constraints are clear (e.g. topcoder & IOI), somes times they are not.
+有些題目所述的限制是明確的(像topcoder 和 IOI的題)
 2.1 Each time you read a constraint in mid of description, write it beside.
+2.1 每次看到題目所述的限制時, 把它寫在旁邊 
 2.2 Never to avoid any constraints, especially unusual one (e.g. 2*(a+b) < c). Try to know why such constraints.
+2.2 不要忽略任何限制, 由其是不尋想的那些(如 2*(a+b) < c). 試想想為什麼有這個奇怪的限制
 2.3 Sometimes constraints make problem a special case of a general one. While general may not be solvable, a specific one could be.
+2.3 限制會使題目由general case(一般情况)變成special case(特殊情况). general case的難題是很難解的, 但一般來說special case會易一點
+
+
+
+
+
 2.4- Ignoring constraints may push you approach problem trivially while it needs careful work (n <= 10^18)
 2.5- Ignoring constraints may push you approach problem complicatedly while it could be solved trivially (n <= 10)
 2.6- Sometimes constraints are not direct
